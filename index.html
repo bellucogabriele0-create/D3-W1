@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply Recipes</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/hk-groteks" rel="stylesheet" />
   </head>
   <body>
+    <!-- testa logo -->
     <header>
       <img src="./assets/logo.png" alt="LOGO" />
-      <div><p>part of A SIMPLY FABULOUS THANKSGIVING</p></div>
+      <div id="start">
+        <p>Part of <b>A SIMPLY FABULOUS THANKSGIVING</b></p>
+      </div>
     </header>
     <main>
       <section>
@@ -20,14 +24,26 @@
           become your new favorite holiday starter!
         </p>
         <figure>
-          <img src="./assets/focaccia.png" alt="Focaccia" />
+          <div id="foc-img">
+            <a
+              href="https://www.youtube.com/watch?v=GLT3bqUwPGc"
+              target="_blank"
+            >
+              <img
+                src="./assets/focaccia.png"
+                alt="Focaccia"
+                style="border-radius: 15px; box-shadow: 0px 0px 5px"
+              />
+            </a>
+          </div>
           <figcaption>Image:Sally Vegas</figcaption>
-          <h3>FEATURED IN:</h3>
+          <h3 class="featured">FEATURED IN:</h3>
           <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
         </figure>
       </section>
       <section>
         <p>Ingredients</p>
+        <hr />
         <h3>for thr focaccia:</h3>
         <ul>
           <li>4 cups (500g) all-purpose flour</li>
@@ -47,8 +63,25 @@
           <li>1 1/2 cups fresh or fronzen cranberries</li>
         </ul>
       </section>
-      <section><h3>Method</h3></section>
+      <section>
+        <h3>Method</h3>
+        <hr />
+        <ul>
+          <li>Make the focaccia dough</li>
+        </ul>
+        <p>
+          in a medium-sized mixing bowl, or in a stand mixer with a paddle
+          attachment, mix together all the dougn ingredients until the flour is
+          fully absorbed. you don't need to actually knead the dough, though I
+          sometimes knead it a few times in the bowl when mixing by hand to
+          incorporrate the last of the flour
+        </p>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div>
+        <p>read more on <a href="#">Simply recipes</a></p>
+      </div>
+    </footer>
   </body>
 </html>
